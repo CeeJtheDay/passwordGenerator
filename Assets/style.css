@@ -1,0 +1,82 @@
+body {
+    background-color: lightgrey;
+}
+
+#passGen {
+    text-align:center;
+}
+
+#container {
+    background-color: white;
+    border: solid 1px darkgrey;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+#boxOne {
+    border-bottom: solid 1px darkgrey;
+    margin-bottom: 10px;
+}
+
+
+#password {
+    border: dashed 1px black;
+    border-radius: 5px;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+#buttonBox {
+    border-top: solid 1px darkgrey;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+
+#generate {
+    float: left;
+    height: 50px;
+    width: 250px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+
+#copy {
+    float: right;
+    height: 50px;
+    width: 250px;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 599px) {
+    #generate {
+        width: 200px;
+    }
+
+    #copy {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    #generate {
+        width: 150px;
+    }
+
+    #copy {
+        width: 150px;
+    }
+}
